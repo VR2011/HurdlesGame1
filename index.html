@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Multiplayer Game</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src= "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+    <script src="js/Player.js"></script>
+    <script src="js/Hurdle.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+    <script src="js/Touch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <script src="sketch.js"></script>
+</body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBz4SMwtx1rkTFC0QduDen76tiGbwyI4t8",
+    authDomain: "hurdles-game-131f5.firebaseapp.com",
+    databaseURL: "https://hurdles-game-131f5.firebaseio.com",
+    projectId: "hurdles-game-131f5",
+    storageBucket: "hurdles-game-131f5.appspot.com",
+    messagingSenderId: "85156771544",
+    appId: "1:85156771544:web:cf81d744ad2c32857f09ad"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+</html>
