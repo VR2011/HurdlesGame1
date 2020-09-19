@@ -8,7 +8,7 @@ class Player {
         this.y = y;
         this.width = width;
         this.height = height;
-        this.image = loadImage("Runner3.png");
+        this.image = loadImage("Runner2.png");
     }
 
     display(){
