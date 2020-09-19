@@ -8,8 +8,8 @@ var hurdles = [];
 var score = 0;
 
 function preload() {
-    track = loadImage("images/Track.png");
-    p2 = loadImage("images/Runner2.png");
+    track = loadImage("Track.png");
+    p2 = loadImage("Runner2.png");
 }
 
 function setup(){
