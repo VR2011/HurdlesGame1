@@ -4,7 +4,7 @@ class Hurdle {
         this.y = y;
         this.width = width;
         this.height = height;
-        this.image = loadImage("images/hurdle.png");
+        this.image = loadImage("hurdle.png");
     }
 
     display(){
